@@ -19,7 +19,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name="spherize_texture",
-    version="0.1.0.0",
+    version="0.1.0.1",
     author="Selewirre Iskvary",
     author_email="selewirre@gmail.com",
     description="A tool for creating spherical-looking objects out of images.",

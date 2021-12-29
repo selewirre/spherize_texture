@@ -12,8 +12,8 @@ from PyQt5 import QtGui
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QMenu, QAction, QFileDialog, QMdiArea, QMdiSubWindow, \
     QPushButton, QMessageBox, QWidget, QGridLayout, QVBoxLayout, QLineEdit, QCheckBox, QSizePolicy, QHBoxLayout
 from PyQt5.QtGui import QPixmap, QDoubleValidator, QPalette, QColor
-from spherize_texture_functions import make_planet_from_texture, distort_image, get_circular_planet_image, add_gradient, \
-    increase_brightness
+from spherize_texture.spherize_texture_functions import make_planet_from_texture, distort_image,\
+    get_circular_planet_image, add_gradient, increase_brightness
 from PIL import ImageQt, Image
 from functools import partial
 

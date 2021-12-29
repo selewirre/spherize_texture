@@ -8,7 +8,7 @@ To install this package, run:
 
 ```
 python3 setup.py sdist bdist_wheel
-pip3 install dist/spherize_texture-0.1.0.0.tar.gz
+pip3 install dist/spherize_texture-0.1.0.1.tar.gz
 ```
 
 If you want to check out the example spherized objects, look in the folder `spherized/...`
